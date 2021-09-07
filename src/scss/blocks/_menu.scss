@@ -1,0 +1,35 @@
+nav{
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    .logo{
+        width: 94px;
+        height: 85px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 35px;
+        li{
+            list-style: none;
+            text-align: center;
+            a{
+                font-family: 'Lato';
+                font-size: 13px;
+                line-height: 1.2;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+                color: #4d4959;
+                text-decoration: none;
+            }
+        }
+    }
+}

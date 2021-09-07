@@ -1,0 +1,24 @@
+.about{
+    height: 469px;
+    background-color: #f7f7f7;
+    padding-top: 115px;
+    h2{
+        margin-top: 35px;
+        text-align: center;
+    }
+    &__logo{
+        display: block;
+        margin: 0 auto;
+        width: 52px;
+        height: 43px;
+    }
+    &__text{
+        margin: 0 auto;
+        margin-top: 35px;
+        max-width: 1160px;
+        
+        p{
+            text-align: center;
+        }
+    }
+}

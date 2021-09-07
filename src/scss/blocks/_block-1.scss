@@ -1,0 +1,85 @@
+.block-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    &__item-1{
+        //width: 1067px;
+        //height: 600px;
+        background-color: #282f35;
+        background-image: url('../img/bg_1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        img{
+            display: block;
+            margin: 0 auto;
+            width: 113px;
+            height: 118px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+        }
+    }
+    &__item-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+        .info{
+            padding: 30px 20px;
+            //height: 450px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            img{
+                display: block;
+                margin: 0 auto;
+                width: 41px;
+                height: 30px;
+            }
+            h2{
+                text-align: center;
+            }
+        }
+        .img{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &__item-3{
+        position: relative;
+        background-image: url('../img/rectangle_1_copy_2_56.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        .info{
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 35px 20px;
+            height: 450px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            img{
+                display: block;
+                margin: 0 auto;
+                width: 41px;
+                height: 30px;
+            }
+            h2{
+                text-align: center;
+            }
+        }
+    }
+    
+}

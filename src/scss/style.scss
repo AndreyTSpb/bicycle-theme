@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after  {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f7f7;
+}
+.hr{
+    margin: 0 auto;
+    height: 1px;
+    width: 50px;
+    background-color: #848789;
+}
+@import 'blocks/text';
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/about';
+@import 'blocks/block-1';
