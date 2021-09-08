@@ -1,0 +1,24 @@
+.block-twitter{
+    padding: 100px 35px;
+    background-color: #f7f7f7;
+    &>img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    &__comment{
+        margin: 0 auto;
+        max-width: 1020px;
+        min-height: 200px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        h2{
+            text-transform: capitalize;
+        }
+        .text{
+            margin-top: 20px;
+        }
+    }
+}

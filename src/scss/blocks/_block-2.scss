@@ -1,0 +1,33 @@
+/*rectangle_1_copy_5_61*/
+.block-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    &__item-2{
+        //width: 1067px;
+        //height: 600px;
+        background-color: #282f35;
+        background-image: url('../img/rectangle_1_copy_5_61.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        img{
+            display: block;
+            margin: 0 auto;
+            width: 177px;
+            height: 152px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-35%);
+        }
+    }
+    &__item-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+    
+}

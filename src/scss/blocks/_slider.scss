@@ -1,0 +1,34 @@
+.slider{
+    &-dots{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        .dot {
+            cursor: pointer;
+            margin: 0 10px;
+            border-radius: 50%;
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+            background-color: rgba(40,47,53,0.0);
+            border: 1px solid #c8c8c8;
+    
+            &.active {
+                width: 11px;
+                height: 11px;
+                background-color: #a9afb3;
+            }
+        }
+        
+    }
+    &__wrapper{
+        .fade{
+            display: none;
+        }
+        .active{
+            display: block;
+        }
+    }
+}

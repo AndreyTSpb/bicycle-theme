@@ -1,0 +1,40 @@
+.block-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+
+    &__item-1{
+        /*img/rectangle_1_copy_6_64.png8*/
+        background-image: url('../img/rectangle_1_copy_6_63.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        img{
+            display: block;
+            margin: 0 auto;
+            width: 208px;
+            height: 67px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-35%);
+        }
+    }
+
+    &__item-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    &__item-3{
+        position: relative;
+        background-image: url('../img/rectangle_1_copy_6_64.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
