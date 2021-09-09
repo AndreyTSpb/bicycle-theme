@@ -12,10 +12,10 @@ nav{
     ul{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
-        width: 70%;
-        margin: 0 auto;
+        gap: 2rem;
+        width: 100%;
         margin-top: 35px;
         li{
             list-style: none;
